@@ -31,8 +31,6 @@
 
     <!-- Animate.css -->
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/animate.css">
-    <!-- Icomoon Icon Fonts-->
-    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/icomoon.css">
     <!-- Bootstrap  -->
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/bootstrap.css">
     <!-- Flexslider  -->
@@ -43,9 +41,6 @@
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/custom.css">
     <!-- pygments code highlight -->
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/pygments.css">
-    <!-- tipue search -->
-    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/tipuesearch/css/tipuesearch.css">
-
     <!-- Modernizr JS -->
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/modernizr-2.6.2.min.js"></script>
     <!-- FOR IE9 below -->
@@ -78,9 +73,6 @@
             </h1>
             <nav class="fh5co-main-menu" role="navigation">
                 {% include 'partial/mainNavigation.html' %}
-                {% if 'tipue_search' in PLUGINS %}
-                    {% include 'partial/search.html' %}
-                {% endif %}
 
             </nav>
 
